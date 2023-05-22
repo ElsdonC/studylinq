@@ -19,7 +19,7 @@ const CreateSession = () => {
 
     return (
         <>
-            <h1 class="text-center">StudyLinq Sessions</h1>
+            <h1 className="text-center">StudyLinq Sessions</h1>
             <form onSubmit={handleSubmit}>
                 <input type="text" onChange={e => setName(e.target.value)} />
                 <button className="btn btn-success">
